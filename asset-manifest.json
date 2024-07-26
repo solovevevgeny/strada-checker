@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/strada-checker/static/css/main.e341f9e3.css",
+    "main.js": "/strada-checker/static/js/main.dbef1cd7.js",
+    "index.html": "/strada-checker/index.html",
+    "main.e341f9e3.css.map": "/strada-checker/static/css/main.e341f9e3.css.map",
+    "main.dbef1cd7.js.map": "/strada-checker/static/js/main.dbef1cd7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e341f9e3.css",
+    "static/js/main.dbef1cd7.js"
+  ]
+}
