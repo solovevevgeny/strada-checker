@@ -3,12 +3,13 @@ import { useEffect } from "react";
 import { useState } from "react";
 import axios from "axios";
 
-function Checker() {
+function Checker(props) {
 
+    
     const [checkerState, setCheckerState] = useState([]);
     
     useEffect(() => {
-        const jsonUrl = "https://heroleague.ru/api/event/event_format/lastrada2024_spb1";
+        const jsonUrl = props.url;
         axios.get(jsonUrl).then ((response) => {
             const allSlots = response.data.values;
             setCheckerState(allSlots);
@@ -18,10 +19,8 @@ function Checker() {
 
 
     return (
-        <div className="wrapper">
-            <div>
-                <h1>LaStrada slot checker 0.2</h1>
-            </div>
+        <div>
+
             {
                 checkerState.map((item) => {
                     return (
