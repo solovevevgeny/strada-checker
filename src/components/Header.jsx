@@ -6,7 +6,7 @@ export const Header = () => {
 
 return (
     <section class="header">
-        <div class="container">
+        <div class="container header">
             <div class="header__name">
                 Herolegue slots checker
             </div>
