@@ -35,7 +35,8 @@ function Checker(props) {
                     }
 
                     return (
-                            <div className="types shadow" style={imageStyle}>
+                        // style={imageStyle}
+                            <div className="types shadow" >
                                 <div>{item.address}</div>
                                 <div><h4>{item.title}</h4></div>
                                 <div>{item.price} руб.</div>
