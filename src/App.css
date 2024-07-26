@@ -11,31 +11,44 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background: #e7e7e7;
+  /* height: 100vh; */
+  background: #fff;
+  color: #000;
 }
 
 .wrapper {
-  width: 800px;
+  width: 100%;
+  padding: 20px;
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: space-around;
   flex-direction: column;
 }
 
+.action {
+  display: flex;
+  flex-direction: column;
+}
+
+.slots {
+  display: flex;
+  flex-direction: row;
+}
+
 .types {
-  background: #fff;
+  background: #e9e9e9;
+  color: #000;
   border-radius: 1rem;
-  padding: 30px;
+  padding:10px 30px;
   margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
 
-  background: url('https://heroleague.ru/uploads/d9c6729ffc8f70fdd4aba006821cacd51f25125a.svg') no-repeat;
+  /* background: url('https://heroleague.ru/uploads/d9c6729ffc8f70fdd4aba006821cacd51f25125a.svg') no-repeat;
   background-size: 80%;
-  background-position: center;
+  background-position: center; */
 
 }
 

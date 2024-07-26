@@ -16,30 +16,39 @@ function Checker(props) {
         }) 
     }, []);
     
-
-
     return (
-        <div>
+        <div className="action">
+            <div><h3>{props.name}</h3></div>
+            
+            <div className="slots">
 
+            
             {
                 checkerState.map((item) => {
+
+                    // const imageStyle = {
+                    //     background: 'url('+item.event_type.logo + ')', 
+                    //     backgroundRepeat: 'no-repeat', 
+                    //     backgroundSize: "100%", 
+                    //     backgroundPosition: "center" 
+                    // }
+
                     return (
-                            <div className="types shadow">
-                                <div><h2>{item.address}</h2></div>
+                            <div className="types shadow" >
+                                {/* <div>{item.address}</div> */}
                                 <div><h4>{item.title}</h4></div>
                                 <div>{item.price} руб.</div>
                                 <div>
                                     <div>Осталось слотов:</div>
                                     <div className="center"><h1>{(item.tickets_left.athlete === -1) ? 0 : item.tickets_left.athlete}</h1></div>
                                 </div>
-                                {/* <div>
-                                    <button className="btn">Купить</button>
-                                </div> */}
-
+                          
                             </div>
                     )
                 })
             }
+
+            </div>
         </div>
     )
 }
