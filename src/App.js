@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       
-      <h1>Heroleague slots checker 0.3</h1>
+      <h1 className='title'>Heroleague slots checker 0.3</h1>
 
       <div className="wrapper"> 
         <Checker url="https://heroleague.ru/api/event/event_format/lastrada2024_spb1" name="Велогонка"/>
