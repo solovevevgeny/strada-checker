@@ -26,15 +26,16 @@ function Checker(props) {
             {
                 checkerState.map((item) => {
 
-                    // const imageStyle = {
-                    //     background: 'url('+item.event_type.logo + ')', 
-                    //     backgroundRepeat: 'no-repeat', 
-                    //     backgroundSize: "100%", 
-                    //     backgroundPosition: "center" 
-                    // }
+                    const imageStyle = {
+                        background: 'url('+item.event_type.project.picture_main + ')', 
+                        backgroundRepeat: 'no-repeat', 
+                        backgroundSize: "100%", 
+                        backgroundPosition: "center",
+                        backgroundColor: "rgba(0, 0, 0, 0.5)"
+                    }
 
                     return (
-                            <div className="types shadow" >
+                            <div className="types shadow" style={imageStyle}>
                                 {/* <div>{item.address}</div> */}
                                 <div><h4>{item.title}</h4></div>
                                 <div>{item.price} руб.</div>
