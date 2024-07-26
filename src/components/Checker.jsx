@@ -33,9 +33,9 @@ function Checker() {
                                     <div>Осталось слотов:</div>
                                     <div className="center"><h1>{(item.tickets_left.athlete === -1) ? 0 : item.tickets_left.athlete}</h1></div>
                                 </div>
-                                <div>
+                                {/* <div>
                                     <button className="btn">Купить</button>
-                                </div>
+                                </div> */}
 
                             </div>
                     )
