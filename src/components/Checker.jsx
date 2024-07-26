@@ -17,41 +17,37 @@ function Checker(props) {
     }, []);
     
     return (
-        <div className="action">
-            <div><h3>{props.name}</h3></div>
-            
-            <div className="slots">
-
-            
+      <section className='sect'>
+        <div className='container'><h1>{props.name}</h1></div>
+        <div className="container list">
             {
-                checkerState.map((item) => {
-
-                    const imageStyle = {
-                        background: 'url('+item.event_type.project.picture_main + ')', 
-                        backgroundRepeat: 'no-repeat', 
-                        backgroundSize: "100%", 
-                        backgroundPosition: "center",
-                        backgroundColor: "rgba(0, 0, 0, 0.5)"
-                    }
-
+                checkerState.map ((item) => {
                     return (
-                        // style={imageStyle}
-                            <div className="types shadow" >
-                                <div>{item.address}</div>
-                                <div><h4>{item.title}</h4></div>
-                                <div>{item.price} руб.</div>
-                                <div>
-                                    <div>Осталось слотов:</div>
-                                    <div className="center"><h1>{(item.tickets_left.athlete === -1) ? 0 : item.tickets_left.athlete}</h1></div>
+                            <div className="card shadow">
+                                <div className="card-body">
+                                    <div class="card-body__city">
+                                        {item.city.name_ru}
+                                    </div>
+                                    <div class="card-body__type">
+                                        {item.title}
+                                    </div>
+                                    <div class="card-body__price">
+                                        {item.price}
+                                    </div>
+                                    <div class="card-body__count-title">
+                                        Осталось слотов:
+                                    </div>
+                                    <div class="card-body__count">
+                                        {(item.tickets_left.athlete === -1) ? 0 : item.tickets_left.athlete}
+                                    </div>
                                 </div>
-                          
                             </div>
                     )
                 })
             }
-
-            </div>
         </div>
+      </section>
+       
     )
 }
 
