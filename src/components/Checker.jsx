@@ -32,7 +32,7 @@ function Checker(props) {
                                         {item.title}
                                     </div>
                                     <div class="card-body__price">
-                                        {item.price}
+                                        {item.price} &#8381;
                                     </div>
                                     <div class="card-body__count-title">
                                         Осталось слотов:
