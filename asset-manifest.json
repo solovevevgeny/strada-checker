@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/strada-checker/static/css/main.81bfb3c5.css",
-    "main.js": "/strada-checker/static/js/main.d1feb56b.js",
+    "main.js": "/strada-checker/static/js/main.2726c5ba.js",
     "index.html": "/strada-checker/index.html",
     "main.81bfb3c5.css.map": "/strada-checker/static/css/main.81bfb3c5.css.map",
-    "main.d1feb56b.js.map": "/strada-checker/static/js/main.d1feb56b.js.map"
+    "main.2726c5ba.js.map": "/strada-checker/static/js/main.2726c5ba.js.map"
   },
   "entrypoints": [
     "static/css/main.81bfb3c5.css",
-    "static/js/main.d1feb56b.js"
+    "static/js/main.2726c5ba.js"
   ]
 }
