@@ -1,6 +1,6 @@
 {
   "name": "strada-tickets",
-  "homepage": "https://tracker.solovev.tech/",
+  "homepage": "https://solovevevgeny.github.io/strada-checker/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
