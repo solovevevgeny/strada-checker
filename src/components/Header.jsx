@@ -5,13 +5,13 @@ export const Header = () => {
 
 
 return (
-    <section class="header">
-        <div class="container header">
-            <div class="header__name">
+    <section className="header">
+        <div className="container header">
+            <div className="header__name">
                 Herolegue slots checker 0.3.3
             </div>
 
-            <div class="header__themeswitcher">
+            <div className="header__themeswitcher">
                 <ThemeSwitcher />
             </div>
         </div>

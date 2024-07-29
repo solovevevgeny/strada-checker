@@ -34,19 +34,19 @@ function Checker(props) {
                                 <div className="card-body" >
 
                                     <div className="card-body__left">
-                                        <div class="card-body__city">
+                                        <div className="card-body__city">
                                             {item.city.name_ru}
                                         </div>
-                                        <div class="card-body__type">
+                                        <div className="card-body__type">
                                             {item.title}
                                         </div>
-                                        <div class="card-body__price">
+                                        <div className="card-body__price">
                                             {item.price} &#8381;
                                         </div>
-                                        <div class="card-body__count-title">
+                                        <div className="card-body__count-title">
                                             Осталось слотов:
                                         </div>
-                                        <div class="card-body__count">
+                                        <div className="card-body__count">
                                             {(item.tickets_left.athlete === -1) ? 0 : item.tickets_left.athlete}
                                         </div>
                                     </div>
