@@ -134,6 +134,11 @@ body[data-theme='dark']  {
 
 .header__themeswitcher {
     cursor: pointer;
+   
+}
+.header__themeswitcher span{
+    display: flex;
+    align-items: center;
 }
 
 
