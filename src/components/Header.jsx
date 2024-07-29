@@ -17,7 +17,7 @@ return (
             </div>
 
             <div className="header__name">
-                Herolegue slots checker 0.3.3
+                Herolegue slots checker 0.3.4
             </div>
 
             <div className="header__themeswitcher">
