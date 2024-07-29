@@ -69,6 +69,13 @@ body[data-theme='dark']  {
     color:var(--color-text);
 }
 
+.header__refresh {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .header__switch {
     font-weight: var(--fw-bold);
     cursor: pointer;
@@ -148,5 +155,8 @@ body[data-theme='dark']  {
 @media (max-width: 1400px) {
     .list {
         grid-template-columns: 1fr;
+    }
+    .header {
+        flex-direction: column;
     }
   }

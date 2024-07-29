@@ -4,10 +4,12 @@ import { useState } from "react";
 import axios from "axios";
 
 import { IoLocationSharp } from "react-icons/io5";
+import { useSelector } from "react-redux";
 
 function Checker(props) {
 
-    
+    const seed = useSelector((state) => state.application.seed);
+
     const [checkerState, setCheckerState] = useState([]);
     
     useEffect(() => {
@@ -16,7 +18,7 @@ function Checker(props) {
             const allSlots = response.data.values;
             setCheckerState(allSlots);
         }) 
-    }, []);
+    }, [seed]);
     
     return (
       <section className='sect'>
