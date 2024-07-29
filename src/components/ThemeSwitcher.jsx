@@ -1,4 +1,4 @@
-import { UseSelector, useDispatch, useSelector } from "react-redux" 
+import { useDispatch, useSelector } from "react-redux" 
 import {switchTheme} from "../store/applicationSlice";
 import { useEffect } from "react";
 

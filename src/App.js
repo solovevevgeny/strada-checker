@@ -1,9 +1,7 @@
 
-import Checker from "./components/Checker";
 import Header from "./components/Header";
 import List from "./components/List";
 
-import ThemeSwitcher from "./components/ThemeSwitcher";
 
 function App() {
   return (
