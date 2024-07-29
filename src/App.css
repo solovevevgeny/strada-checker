@@ -33,7 +33,7 @@ body {
 
 body[data-theme='light'] {
     --color-bg: hsl(0, 0%, 98%);
-    --color-element: hsl(0, 0%, 100%);
+    --color-element: hsl(0, 0%, 95%);
     --color-text: hsl(200, 15%, 8%);
     --color-input: hsl(0, 0%, 52%);
 }
