@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import { useState } from "react";
 import axios from "axios";
 
+import { IoLocationSharp } from "react-icons/io5";
+
 function Checker(props) {
 
     
@@ -35,6 +37,7 @@ function Checker(props) {
 
                                     <div className="card-body__left">
                                         <div className="card-body__city">
+                                            <IoLocationSharp />
                                             {item.city.name_ru}
                                         </div>
                                         <div className="card-body__type">

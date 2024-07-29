@@ -106,6 +106,9 @@ body[data-theme='dark']  {
 
 .card-body__city {
     font-weight: var(--fw-bold);
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .card-body__logo {
