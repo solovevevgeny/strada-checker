@@ -34,12 +34,14 @@ body {
 body[data-theme='light'] {
     --color-bg: hsl(0, 0%, 98%);
     --color-element: hsl(0, 0%, 95%);
+    --color-element-hover: hsl(0, 0%, 92%);
     --color-text: hsl(200, 15%, 8%);
     --color-input: hsl(0, 0%, 52%);
 }
 body[data-theme='dark']  {
     --color-bg: hsl(207, 26%, 17%);
     --color-element: hsl(209, 23%, 22%);
+    --color-element-hover: hsl(208, 23%, 27%);
     --color-text: hsl(0, 0%, 100%);
     --color-input: hsl(0, 0%, 52%);
 }
@@ -104,6 +106,10 @@ body[data-theme='dark']  {
     overflow: hidden;
     cursor: pointer;
     padding:20px;
+}
+
+.card:hover {
+    background: var(--color-element-hover);
 }
 
 .card-body {
