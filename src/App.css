@@ -46,6 +46,10 @@ body[data-theme='dark']  {
     --color-input: hsl(0, 0%, 52%);
 }
 
+a {
+    color: var(--color-text);
+}
+
 .shadow {
     box-shadow: var(--shadow);
 }

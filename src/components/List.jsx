@@ -1,10 +1,14 @@
 
 import Checker from "./Checker"
 
+import Info from "./Info"
+
 export const List = () => {
 
     return (
         <>
+
+                <Info text="Перенос гонки с 11 августа на 29 сентября!" link="https://t.me/lastrada_official/907" />
                 <Checker url="https://heroleague.ru/api/event/event_format/lastrada2024_spb1" name="Велогонка 29 сентября 2024"/>
                 <Checker url="https://heroleague.ru/api/event/event_format/lastrada2024_spb2" name="Фестиваль 29 сентября 2024"/>
                 <Checker url="https://heroleague.ru/api/event/event_format/lastrada2024_spb3" name="LaStrada OFFROAD 7 сентября 2024"/>
