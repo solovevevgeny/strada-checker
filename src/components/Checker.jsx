@@ -52,7 +52,7 @@ function Checker(props) {
                                             Осталось слотов:
                                         </div>
                                         <div className="card-body__count">
-                                            {(item.tickets_left.athlete === -1) ? 0 : item.tickets_left.athlete}
+                                            {(item.tickets_left.athlete < 0) ? 0 : item.tickets_left.athlete}
                                         </div>
                                     </div>
 
