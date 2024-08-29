@@ -6,7 +6,7 @@ function Info({text, link}) {
         <section className="sect">
                 <div className="container">
                     <div className="card shadow">
-                        {text} <a href={link}>Подробнее</a>
+                        {text} <a target="_blank" href={link}>Подробнее</a>
                     </div>
                 </div>
         </section>

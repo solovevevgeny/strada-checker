@@ -8,7 +8,9 @@ export const List = () => {
     return (
         <>
 
-                {/* <Info text="Перенос гонки с 11 августа на 29 сентября!" link="https://t.me/lastrada_official/907" /> */}
+                <Info text="Какая справка требуется для участия в велогонке?" link="https://faq.heroleague.ru/knowledge-bases/4/articles/23904-kakaya-spravka-trebuetsya-dlya-uchastiya-v-velogonke" />
+                <Info text="требования к оборудованию и снаряжению для участия в велогонке/велофестивале/оффроуд?" link="https://faq.heroleague.ru/knowledge-bases/4/articles/23896-kakie-trebovaniya-k-oborudovaniyu-i-snaryazheniyu-dlya-uchastiya-v-velogonkevelofestivaleoffroud" />
+                
                 <Checker url="https://heroleague.ru/api/event/event_format/urban2024_spb" name="Гонка героев URBAN 31 августа 2024"/>
                 <Checker url="https://heroleague.ru/api/event/event_format/lastrada2024_spb3" name="LaStrada OFFROAD 7 сентября 2024"/>
                 <Checker url="https://heroleague.ru/api/event/event_format/velogonka2024" name="ДВЕ СТОЛИЦЫ 14 сентября 2024"/>
