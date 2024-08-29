@@ -44,7 +44,7 @@ function Checker(props) {
                                     <div className="card-body__left">
                                         <div className="card-body__city">
                                             <IoLocationSharp />
-                                            {item.city.name_ru}
+                                            {item.city.name_ru} 
                                         </div>
                                         <div className="card-body__type">
                                             {item.title}
@@ -53,7 +53,7 @@ function Checker(props) {
                                             {item.price} &#8381;
                                         </div>
                                         <div className="card-body__count-title">
-                                            Осталось слотов (св/лим):
+                                            Cлотов (своб/лимит):
                                         </div>
                                         <div className="card-body__count">
                                             {/* {(item.tickets_left.athlete < 0) ? 0 : item.tickets_left.athlete} / {item.limits.athlete} */}
