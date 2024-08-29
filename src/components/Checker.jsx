@@ -53,7 +53,7 @@ function Checker(props) {
                                             {item.price} &#8381;
                                         </div> */}
                                         <div className="card-body__count-title">
-                                            Осталось слотов (свободно / лимит):
+                                            Осталось слотов (св/лим):
                                         </div>
                                         <div className="card-body__count">
                                             {(item.tickets_left.athlete < 0) ? 0 : item.tickets_left.athlete} / {item.limits.athlete}
