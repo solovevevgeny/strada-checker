@@ -20,12 +20,16 @@ function Checker(props) {
         }) 
     }, [seed]);
     
+    
     return (
-      <section className='sect'>
+        <section className='sect'>
         <div className='container'><h1>{props.name}</h1></div>
         <div className="container list">
             {
+                
+                
                 checkerState.map ((item) => {
+                    console.log(item.limits.athlete);
 
                     let logo = item.event_type.logo;
 
@@ -52,7 +56,7 @@ function Checker(props) {
                                             Осталось слотов:
                                         </div>
                                         <div className="card-body__count">
-                                            {(item.tickets_left.athlete < 0) ? 0 : item.tickets_left.athlete}
+                                            {(item.tickets_left.athlete < 0) ? 0 : item.tickets_left.athlete} / {item.limits.athlete}
                                         </div>
                                     </div>
 
