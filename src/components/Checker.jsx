@@ -56,7 +56,10 @@ function Checker(props) {
                                             Осталось слотов (св/лим):
                                         </div>
                                         <div className="card-body__count">
-                                            {(item.tickets_left.athlete < 0) ? 0 : item.tickets_left.athlete} / {item.limits.athlete}
+                                            {/* {(item.tickets_left.athlete < 0) ? 0 : item.tickets_left.athlete} / {item.limits.athlete} */}
+                                            {
+                                                (item.tickets_left.athlete <= 0) ? <span className='red'>0</span> : <span className='green'>{item.tickets_left.athlete + '/' + item.limits.athlete}</span> 
+                                            }
                                         </div>
                                     </div>
 

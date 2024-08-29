@@ -161,6 +161,13 @@ a {
     align-items: center;
 }
 
+.red {
+    color: #d92626;
+}
+.green {
+    color: #2bb730;
+}
+
 
 @media (max-width: 1400px) {
     .list {
