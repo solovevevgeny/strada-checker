@@ -49,9 +49,9 @@ function Checker(props) {
                                         <div className="card-body__type">
                                             {item.title}
                                         </div>
-                                        {/* <div className="card-body__price">
+                                        <div className="card-body__price">
                                             {item.price} &#8381;
-                                        </div> */}
+                                        </div>
                                         <div className="card-body__count-title">
                                             Осталось слотов (св/лим):
                                         </div>
