@@ -29,7 +29,6 @@ function Checker(props) {
                 
                 
                 checkerState.map ((item) => {
-                    console.log(item.limits.athlete);
 
                     let logo = item.event_type.logo;
 
@@ -53,12 +52,13 @@ function Checker(props) {
                                             {item.price} &#8381;
                                         </div>
                                         <div className="card-body__count-title">
-                                            Cлотов (своб/лимит):
+                                            Cлотов:
                                         </div>
                                         <div className="card-body__count">
                                             {/* {(item.tickets_left.athlete < 0) ? 0 : item.tickets_left.athlete} / {item.limits.athlete} */}
                                             {
-                                                (item.tickets_left.athlete <= 0) ? <span className='red'>0/{item.limits.athlete}</span> : <span className='green'>{item.tickets_left.athlete + '/' + item.limits.athlete}</span> 
+                                                // (item.tickets_left.athlete <= 0) ? <span className='red'>0/{item.limits.athlete}</span> : <span className='green'>{item.tickets_left.athlete + '/' + item.limits.athlete}</span> 
+                                                (item.tickets_left.athlete <= 0) ? <span className='red'>0</span> : <span className='green'>{item.tickets_left.athlete}</span> 
                                             }
                                         </div>
                                     </div>
