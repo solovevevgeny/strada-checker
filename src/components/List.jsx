@@ -14,7 +14,7 @@ export const List = () => {
                 
                 {/* <Checker url="https://heroleague.ru/api/event/event_format/lastrada2024_spb1" name="Велогонка 29 сентября 2024"/> */}
                 {/* <Checker url="https://heroleague.ru/api/event/event_format/lastrada2024_spb2" name="Фестиваль 29 сентября 2024"/> */}
-                <Checker url="https://heroleague.ru/api/event/event_format/lastrada2024_sochi1" name="Велогонка СОЧИ 12 октября 2024"/>
+                {/* <Checker url="https://heroleague.ru/api/event/event_format/lastrada2024_sochi1" name="Велогонка СОЧИ 12 октября 2024"/> */}
                 <Checker url="https://heroleague.ru/api/event/event_format/lastrada2024offroad_msc_1011" name="LA STRADA - ОФФ-РОУД 10 ноября 2024"/>
 
 
