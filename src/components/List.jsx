@@ -16,7 +16,8 @@ export const List = () => {
                 <Checker url="https://heroleague.ru/api/event/event_format/trail2025_498817_2007" name="Trail 20 июля"/>
                 <Checker url="https://heroleague.ru/api/event/event_format/gonka2025_498817_2308" name="Гонка Героев 23 августа"/>
                 <Checker url="https://heroleague.ru/api/event/event_format/urban2025_spb" name="Городские препятствия 11 октября"/>
-          
+
+                <Checker url="https://heroleague.ru/api/event_format/event/lastrada2024criterium_msc" name="La Strada Критериум"/>
          
         </>
     )
